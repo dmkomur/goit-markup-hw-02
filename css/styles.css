@@ -16,7 +16,6 @@ body {
     --color-hover: #404BBF;
     --color-text-accent: #2E2F42;
     --color-text-unaccent: #F4F4FD;
-
 }
 
 .logo-web {
@@ -127,7 +126,7 @@ body {
 }
 
 .our-team {
-    background-color: #F4F4FD;
+    background-color: var(--color-text-unaccent);
 }
 
 .products-desription h2 {
