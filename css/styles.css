@@ -57,7 +57,8 @@ body {
 
 .address-link {
     text-decoration: none;
-    color: var(--color-text-accent) font-style: normal;
+    color: var(--color-text-accent);
+    font-style: normal;
 }
 
 .address {
