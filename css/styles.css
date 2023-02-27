@@ -1,5 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: var(--color-alternative);
     color: var(--color-text);
 
     font-size: 16px;
@@ -16,16 +16,10 @@ body {
     --color-hover: #404BBF;
     --color-text-accent: #2E2F42;
     --color-text-unaccent: #F4F4FD;
+    --color-alternative: #fff;
 }
 
 .logo-web {
-    font-family: 'Raleway';
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-
     color: var(--color-main)
 }
 
@@ -40,18 +34,18 @@ body {
     color: var(--color-text-accent);
 }
 
-.non-dots {
+.list {
     list-style: none;
 }
 
-.nav-item {
-    font-weight: 700;
+.nav-link {
+    font-weight: 500;
     color: var(--color-text-accent);
     text-decoration: none;
 }
 
-.nav-item:hover,
-.nav-item:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: var(--color-hover);
 }
 
@@ -70,27 +64,29 @@ body {
     color: var(--color-hover);
 }
 
+.hero {
 
-.heroe {
     background-color: var(--color-text-accent);
-    font-weight: 700;
+}
+
+.hero-header {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
-    color: #FFF;
+    color: var(--color-alternative);
 }
 
-.heroe-btn {
+.hero-btn {
     font-weight: 500;
     letter-spacing: 0.04em;
-    color: #FFF;
+    color: var(--color-alternative);
     background-color: var(--color-main);
     cursor: pointer;
     border-width: 0;
 }
 
-.heroe-btn:hover,
-.heroe-btn:focus {
+.hero-btn:hover,
+.hero-btn:focus {
     background-color: var(--color-hover);
     color: inherit;
 }
@@ -110,15 +106,15 @@ body {
 }
 
 
-.index-main-h3 {
+.section-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     color: var(--color-text-accent);
 }
 
-.index-main-h2 {
-    font-weight: 700;
+.section-title {
+
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -126,11 +122,11 @@ body {
     color: var(--color-text-accent);
 }
 
-.our-team {
+.team {
     background-color: var(--color-text-unaccent);
 }
 
-.products-desription h2 {
+.products-title h2 {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
